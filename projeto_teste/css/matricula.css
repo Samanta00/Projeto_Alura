@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+  /*background-color: rgb(9, 10, 95); */    
+    max-width: 1200px;
+    min-height: 100vw;
+    min-width: 100vw;
+    overflow-x: hidden;
+}
+.links{
+    list-style: none;
+    display: flex;
+
+}
+.links li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+.caixa{
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+    background: bisque;
+    
+    
+    }
+.p,p, h2{
+    color: white;
+}
+p{  
+     text-align: center;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+
+input{
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 20%;}
+
+.ordenacao{
+    display: inline-flex;
+  margin-left: 25%;
+}
+
+#campo_unico{
+    width: 20vh;
+}
+.campo{
+    width: 37vh;
+    border-radius: 3.15vh;
+    height: 4vh;
+}
+.lista_form{
+    padding: 2.76vh;
+}
+.formulario{
+    margin-top: 6%;
+}
+.div_form{
+background-color: aqua;
+width: 56vh;
+height: 40vh;
+margin: auto;
+}
+
+.bloco-inicial{
+    margin-top: 2%;
+}
+.link{
+    margin-right: 46%;
+    margin-top: -21%;
+}
+a{
+   margin-top: 2%;
+   
+   margin-left: 5%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(1, 1, 39);
+    height: 8vh;
+
+}
+h2{
+    text-align: center;
+}
+@media only screen and (min-width:320px) and (max-width:1200px) {
+    .imagem {
+        margin-left: 96%;
+        margin-top: 2%;
+        display: inline;
+    }
+    #nascimento {
+        margin: 1%;
+        margin-right: 26%;
+    }
+    
+
+
+}

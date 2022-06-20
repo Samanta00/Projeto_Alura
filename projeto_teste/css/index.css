@@ -1,0 +1,322 @@
+*{
+    margin:0;
+    padding:0; 
+
+  }
+body{
+    margin:auto;
+
+    max-width: 1200px;
+    min-height: 100vw;
+    min-width: 100vw;
+    overflow-x: hidden;
+    background-image:linear-gradient(to bottom, rgb(8, 40, 83), rgb(1, 1, 17), rgb(2, 48, 107));
+  
+}
+p{
+    color: aqua;
+}
+
+#lupinha{
+    color: rgb(255, 255, 255);
+    width: 6%;
+    height: 7%;
+    padding: 0%;
+    margin-top: 3%;
+
+}
+.imagem_principal{
+
+  margin-left: 180%;
+  margin-top: 5%;
+  
+  height: 14%;
+  width: 81%;
+
+
+ 
+}
+.nav1 li{
+    display: inline;
+    margin:0 0 0 11px;
+    top:3%;
+  
+}
+
+
+.caixa{
+display: flex;
+align-items: center;
+margin-left: 4rem;
+
+
+}
+.imagem{
+    vertical-align: top;
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    margin-top: 26%;
+
+  
+}
+
+main{
+    margin-top: -10%;
+}
+#pergunta{
+    padding: 4%;
+    width: 16rem;
+    color: white;
+    background-color: rgb(9, 10, 95);
+    box-sizing: border-box;
+    border: 0px solid rgb(197, 191, 191);
+    border-radius: 2%;
+    margin: 3px;
+    margin-left: 4%;
+    margin-top: 10px;
+
+}
+
+
+.caixinha2{
+    display: flex;
+    align-items: center;
+
+    padding: 0px;
+    margin: 0em;
+    width: 25rem;
+    margin-left: 4%;
+}
+
+ul.links{
+    display: inline-block;
+    color: white;
+    width: 51rem;
+    margin-top: 0%;
+    margin-left: 13%;
+    
+}
+
+.nav1{
+    display: flex;
+    margin-top: 1%;
+}
+.categorias{
+    margin-right: 18%;
+}
+
+#icone{
+    
+    width: 13%;
+    height: 14%;
+    margin-left: 7%;
+    padding: 0%;
+}
+.link1{
+font-size: 2vh;
+}
+.link1:hover{
+   color: rgb(9, 95, 69); ;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-left: 1%;
+}
+.bloco2{
+    margin-top: 5%;
+    padding: 3em 0 2em;
+    margin-left: 7rem;
+    display: inline;
+}
+.bloco_introdutorio{
+    display: inline-block;
+    padding: 0rem 0.5vw;
+    margin-top: 11%;
+
+}
+.div_imagem_padrao{
+    display: inline-block;
+    margin-left: 15vw;
+    margin-top: -37%;
+
+  
+}
+.alinhamento_categorias{
+    margin-right: 17%;
+}
+
+.header__nav__link{
+   
+    border-radius: 1.5em;
+    background-color: aquamarine;
+    padding: 0.5rem;
+    margin-top: 1%;
+    height: 69%;
+    color: black;
+}
+
+.nav-caixinha{
+    margin: 0 0 0 15px;
+}
+
+h2.h2{
+    font-size: 2.125rem;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -.019em;
+    margin-bottom: 0.5em;
+    color: white;
+}
+p.p1{
+    font-size: 1.25rem;
+    width: 24em;
+    margin: 1em 0;
+    color:white;
+}
+.cursos li{
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgb(9, 10, 95);
+    margin: 0 0.5em;
+    width: 15%;
+    padding: 1.05vw 0.2rem;
+    box-sizing: border-box;
+    border:1px solid rgb(89, 91, 238);
+    border-radius: 2%;
+}
+.responsive{
+    
+}
+
+.cursos li:hover{
+    border-color: rgb(171, 213, 241);
+}
+.cursos li:hover div{
+    margin-top: -10%;
+}
+
+.cursos{
+    width: 1400px;
+    margin: 0 auto;
+}
+.assuntos{
+    font-size:clamp(0.50em, 0.80em + 1vw, 0.62em);
+    width: 20em;
+    margin: 1em 0;
+    color: rgb(255, 241, 241);
+}
+.assuntos2{
+    font-size:clamp(0.50em, 0.80em + 1vw, 0.05em);
+    width: 20em;
+    margin: 1em 0;
+    color: rgb(255, 241, 241);
+}
+p{
+    font-size:clamp(0.50em, 0.80em + 2vw, 0.80em);
+    width: 20em;
+    margin: 1em 0;
+    color: white;
+}
+.titulo_curso{
+    text-transform: uppercase;
+    color: white;
+    font-size: clamp(0.50em, 0.80em + 2vw, 0.90em);
+}
+::-webkit-input-placeholder{
+    color: rgb(226, 226, 226);
+    font-weight: bold;
+  }
+
+.imagem_padrao{
+    opacity: 0.3;
+}
+
+ 
+
+
+
+@media only screen and (min-width:320px) and (max-width:566px) {
+    body{
+        overflow-x: hidden;
+    }
+    .bloco2 {
+        margin-top: 14%;
+    
+    }
+    .caixa {
+        align-items: center;
+        margin-left: 4rem;
+        margin-top: 10%;
+    }
+    .caixinha {
+        margin: -23%;
+        margin-top: 10%;
+        display: inline-block;
+    }
+    ul.links {
+        display: inline-block;
+        color: white;
+        padding: 2%;
+        width: 51rem;
+        margin-top: 0%;
+        margin-left: 11%;
+    }
+    #lupinha {
+        color: rgb(255, 255, 255);
+        width: 4vh;
+        height: 7%;
+        padding: 0%;
+        margin-top: -95%;
+        margin-left: 30vh;
+    }
+    .separacao{
+        margin-top: 2%;
+    }
+    
+    
+    .header__nav__link {
+        margin-right: 17%;
+        border-radius: 2.5em;
+        background-color: aquamarine;
+        padding: 1%;
+        height: 13%;
+        color: black;
+        width: 12%;
+        font-size: 66%;
+        float: right;
+        margin-top: -4%;
+    }
+    .nav1 {
+        margin-top: 1%;
+    }
+    .caixinha2 {
+        display: inline-block;
+        align-items: center;
+        padding: 0px;
+        margin: 0em;
+        width: 4rem;
+        margin-left: 0%;
+        margin-top: -11%;
+    }
+    .cursos{
+        width: 690px;
+        margin-left: 0%;
+    
+    
+    }
+    
+.cursos li {
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgb(9, 10, 95);
+    margin: 12px 0.5em;
+    padding: 22px 1px;
+    box-sizing: border-box;
+    border: 1px solid rgb(89, 91, 238);
+    border-radius: 2%;
+}
+}

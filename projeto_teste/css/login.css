@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(14, 14, 110);
+}
+.texto{
+    color: #ffff;
+}
+nav li{
+    display: inline-block;
+    vertical-align: cente;
+    margin-top: 3%;
+    
+
+}
+h3{
+    font-size: medium;
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(1, 1, 39);
+    height: 8vh;
+
+}
+.ul-lista{
+    list-style: none;
+    display: flex;
+}
+.ul-lista li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.bloco{
+    position: relative;
+    width: 80vh;
+    margin: 0px auto;
+ 
+
+    padding: -3%;
+    
+background: rgb(5, 5, 58);
+}
+    
+
+.bloco_fundo{
+    position: relative;
+    width: 1199px;
+    margin: 0px auto;
+    max-width: 1000px;
+    min-width: 400px;
+    padding: -3%;
+    margin-top: 2vw;
+background: rgb(5, 5, 58);
+}
+h2,p{
+    color: white;
+}
+.mobile-menu div{ 
+
+    width: 32px;
+    height: 2px;
+    background: white;
+    margin: 8px;
+}
+.mobile-menu{
+    cursor: pointer;
+    display: none;
+}
+
+
+.bloco2{
+    margin-top: 1%;
+    margin-right: 6%;
+    padding: 3%;
+    margin-left: 4%;
+}
+
+.centraliza{
+   text-align: center;
+}
+.bloco_inicial{
+
+    margin: 44px;
+    background-color: bisque;
+    margin-right: 0%;
+    margin-left: 0%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2%;
+}
+
+.container-principal{
+    background-color: rgb(223, 82, 16);
+}
+.lupa{
+    background-color: black;
+}
+#botao{
+    margin-left: 43%;
+}
+.botoes{
+    display: inline-block;
+    vertical-align: top;
+ 
+}
+  
+  #botao1{
+    
+    border-color:  blue;
+    border-radius: 3em;
+  }
+  #botao2{
+    border-color:  brown;
+    border-radius: 3em;
+  }
+  #botao{
+      background-color: aquamarine;
+      height: 90%;
+      width: 90%;
+      margin-left: 5%;
+  }
+  .link{
+      text-align: center;
+      margin-top: 5%;
+  }
+  .cursos{ 
+   
+    margin: 0px;
+    margin-left: 52%;
+    padding: 0%;
+    display: flex;
+    margin-top: -56%;  
+}
+
+button{
+    border-radius: 3em;
+}
+.bloco-cursos{
+    padding: 1%;
+    margin: 0%;
+    padding: 0.5rem;
+}
+.plano-fundo{
+    background-color: rgb(14, 14, 110);
+}
+.bloquinhos{
+    display: inline-block;
+    margin-right: 13%;
+    padding: 0%;
+    margin: 0%;
+    margin-left: 9%;
+    font-size: x-small;
+    color: white;
+}
+
+@media only screen and (max-width:999px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .bloco_inicial{
+        margin: 44px;
+        background-color: bisque;
+        margin-right: 0%;
+        margin-left: 6%;
+        display: inline-block;
+        vertical-align: top;
+        padding: 2%;
+    }
+    .bloco_fundo{
+    
+    background: rgba(10,23,55,0.0);
+    }
+
+    #botao2 {
+        margin-top: 4%;
+        margin-left: 0%;
+        padding: -1.24rem;
+        height: 36px;
+    }
+    #botao1 {
+        padding: 2%;
+    }
+    .botoes{
+        margin-left: 21%;
+    }
+    .bloco-cursos {
+        margin: -42%;
+        padding: 12.5rem;
+    }
+    .cursos {
+        background-color: blueviolet;
+        padding: 3%;
+        display: table-caption;
+        margin: 4%;
+    }
+    .matricular{
+        margin-right: 4%;
+
+    }
+    nav li {
+        display: inline-block;
+        vertical-align: cente;
+        margin-top: 6%;
+    }
+
+
+body{
+    overflow-x:hidden ;
+}
+
+    .ul-lista{
+        position:absolute;
+        top:8vh;
+        right:0;
+        width:50vw;
+        height:92vh;
+        background: rgb(4, 7, 51);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+    .ul-lista li{
+        margin-left: 0;
+      
+    }
+    .mobile-menu{
+        display: block;
+    }
+
+}
+
+    .ul-lista.active{
+        transform: translateX(0);
+    }
+
+@keyframes navLinkFade{
+    from{
+opacity: 0;
+transform: translateX(50px);
+    }
+    to{
+opacity: 1;
+transform: translateX(0);
+    }
+}
